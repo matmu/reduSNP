@@ -1,0 +1,2 @@
+# reduSNP
+Genetic variant pruning
