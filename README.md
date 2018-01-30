@@ -19,7 +19,7 @@ Parameters
 
 <output\_file> Filename of the output file
 
-<as>  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
+<pop>  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
   
 <ld\_method> Method that is used to calculate LD; either r^2 or D' (specifiy as "r2" or "dprime")
 
