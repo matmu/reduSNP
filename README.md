@@ -13,13 +13,13 @@ TODO
 
 Parameters
 ---------------
-```~/redusnp.pl <input_file> <output_file> <population> <ld_method> <correlation_threshold>```
+```~/redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold>```
 
 **<input_file>** Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
 
 **<output_file>** Filename of the output file
 
-**<population>**  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
+**<pop>**  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
   
 **<ld_method>** Method that is used to calculate LD; either r^2 or D' (specifiy as r2 or dprime)
 
