@@ -1,4 +1,5 @@
-# reduSNP
+reduSNP
+=======
 LD pruning tool
 
 Introduction
@@ -25,7 +26,9 @@ Minimum input information
 Running reduSNP
 ---------------
 The basic command is:
+
 ```~/redusnp.pl <input_filename>.txt <output_filename>.txt  EUR <D’ or r2 threshold(s)>```
 
-For example:  
+For example:
+
 ```~/folder/reduscnp.pl my_snp_list.txt results_snp_list.txt EUR 0.7 0.8 0.9```
