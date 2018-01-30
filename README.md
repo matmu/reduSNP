@@ -27,5 +27,4 @@ Parameters
 
 Example command
 ---------------
-The basic command is:
 ```~/redusnp.pl input.txt output.txt  EUR r2 0.8```
