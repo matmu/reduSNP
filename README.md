@@ -16,6 +16,7 @@ Parameters
 ```~/redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold>```
 
 <input_file> Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
+
 <output_file> Filename of the output file
 
 <as>  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
