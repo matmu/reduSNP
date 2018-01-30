@@ -4,4 +4,6 @@ LD pruning tool
 
 Introduction
 ------------
-<pop>  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
+Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
+
+<pop>
