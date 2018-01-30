@@ -13,7 +13,7 @@ TODO
 
 Parameters
 ---------------
-```~/redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold>```
+```~/redusnp.pl <input\_file> <output\_file> <pop> <ld\_method> <corr\_threshold>```
 
 <input\_file> Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
 
