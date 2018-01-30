@@ -13,7 +13,7 @@ TODO
 
 Parameters
 ---------------
-```~/redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold>```
+```./redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold>```
 
 **\<input\_file\>** Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
 
@@ -27,4 +27,4 @@ Parameters
 
 Example command
 ---------------
-```~/redusnp.pl input.txt output.txt  EUR r2 0.8```
+```./redusnp.pl input.txt output.txt  EUR r2 0.8```
