@@ -15,15 +15,15 @@ Parameters
 ---------------
 ```~/redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold>```
 
-\<input\_file\> Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
+**\<input\_file\>** Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
 
-\<output\_file\> Filename of the output file
+**\<output\_file\>** Filename of the output file
 
-\<pop\>  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
+**\<pop\>**  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
 
-\<ld\_method\> Method that is used to calculate LD; either r^2 or D' (specifiy as "r2" or "dprime")
+**\<ld\_method\>** Method that is used to calculate LD; either r^2 or D' (specifiy as "r2" or "dprime")
 
-\<corr\_threshold\\> correlation threshold, number between 0 and 1, specified LD threshold(s)
+**\<corr\_threshold\>** correlation threshold, number between 0 and 1, specified LD threshold(s)
 
 Example command
 ---------------
