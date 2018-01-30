@@ -1,5 +1,5 @@
 # reduSNP
-Genetic variant pruning
+LD pruning tool
 
 Introduction
 ------------
@@ -26,5 +26,6 @@ Running reduSNP
 ---------------
 The basic command is
 ```~/redusnp.pl <input_filename>.txt <output_filename>.txt  EUR <D’ or r2 threshold(s)>```
+
 For example:  
 ```~/folder/reduscnp.pl my_snp_list.txt results_snp_list.txt EUR 0.7 0.8 0.9```
