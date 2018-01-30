@@ -20,7 +20,7 @@ Parameters
 <output\_file> Filename of the output file
 
 <pop>  Currently, only the European population (specify as "EUR") of 1000 Genomes Phase 3 is supported
-  
+
 <ld\_method> Method that is used to calculate LD; either r^2 or D' (specifiy as "r2" or "dprime")
 
 <corr\_threshold> correlation threshold, number between 0 and 1, specified LD threshold(s)
