@@ -27,7 +27,7 @@ TODO
 
 Parameters
 ---------------
-```./redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold>```
+```./redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold> <use_p_value>```
 
 **\<input\_file\>** Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
 
@@ -37,8 +37,10 @@ Parameters
 
 **\<ld\_method\>** Method that is used to calculate LD; either r^2 or D' (specifiy as "r2" or "dprime")
 
-**\<corr\_threshold\>** correlation threshold, number between 0 and 1, specified LD threshold(s)
+**\<corr\_threshold\>** Correlation threshold, number between 0 and 1, specified LD threshold(s)
+
+**\<use\_p\_value>**  If set to "1", the input file is searched for a P-value column. Variants are then pruned in a way, that per LD block the variant with the lowest P-value is kept.
 
 Example command
 ---------------
-```./redusnp.pl input.txt output.txt  EUR r2 0.8```
+```./redusnp.pl input.txt output.txt EUR r2 0.8 1```
