@@ -12,18 +12,9 @@ Perl5 database interface to the MySQL database: ```libdbd-mysql-perl```
 
 Install via ```sudo apt-get install libdbd-mysql-perl```
 
-Perl libaries: 
-```DBI```
-```Scalar::Util```
-
-These can be installed using cpanm (```cpanm DBI Scalar::Util```)
-
-
-
 Installation
 -------------
-Required software
-TODO
+reduSNP is a Perl script that was converted into a standalone binary using PAR Packager including. After downloading the binary, simply run it with ```./redusnp```.
 
 Parameters
 ---------------
@@ -43,4 +34,4 @@ Parameters
 
 Example command
 ---------------
-```./redusnp.pl input.txt output.txt EUR r2 0.8 1```
+```./redusnp input.txt output.txt EUR r2 0.8 1```
