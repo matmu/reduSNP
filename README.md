@@ -9,12 +9,11 @@ reduSNP is a lightweight linkage disequilibrium (LD) pruning tool that is highli
 Requirements
 ------------
 Perl5 database interface to the MySQL database: ```libdbd-mysql-perl```
+
 Install via ```sudo apt-get install libdbd-mysql-perl```
 
 Perl libaries: 
-
 ```DBI```
-
 ```Scalar::Util```
 
 These can be installed using cpanm (```cpanm DBI Scalar::Util```)
