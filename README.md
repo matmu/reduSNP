@@ -14,7 +14,7 @@ Install via ```sudo apt-get install libdbd-mysql-perl```
 
 Installation
 -------------
-reduSNP is a Perl script that was converted into a standalone binary using PAR Packager including. After downloading the binary, simply run it with ```./redusnp```.
+reduSNP is a Perl script that was converted into a standalone binary using PAR Packager including all dependencies. After downloading the binary, simply run it with ```./redusnp```.
 
 Parameters
 ---------------
