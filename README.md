@@ -18,7 +18,7 @@ reduSNP is a Perl script that was converted into a standalone binary using PAR P
 
 Parameters
 ---------------
-```./redusnp.pl <input_file> <output_file> <pop> <ld_method> <corr_threshold> <use_p_value>```
+```./redusnp <input_file> <output_file> <pop> <ld_method> <corr_threshold> <use_p_value>```
 
 **\<input\_file\>** Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
 
