@@ -14,11 +14,11 @@ Install via ```sudo apt-get install libdbd-mysql-perl```
 
 Installation
 -------------
-reduSNP is a Perl script that was converted into a standalone binary using PAR Packager including all dependencies. After downloading the binary, simply run it with ```./redusnp```.
+reduSNP is a Perl script that was converted into a standalone binary using PAR Packager including all dependencies. After downloading the binary, simply run it with ```./reduSNP```.
 
 Parameters
 ---------------
-```./redusnp <input_file> <output_file> <pop> <ld_method> <corr_threshold> <use_p_value>```
+```./reduSNP <input_file> <output_file> <pop> <ld_method> <corr_threshold> <use_p_value>```
 
 **\<input\_file\>** Tab-separated file with a column "SNP" contain reference SNP identifier (rsID)
 
@@ -34,4 +34,21 @@ Parameters
 
 Example command
 ---------------
-```./redusnp input.txt output.txt EUR r2 0.8 1```
+Input file ```rsids.txt```:
+
+SNP
+rs2070901
+rs2070902
+rs4233366
+rs123
+rs121
+
+
+```./reduSNP rsids.txt rsids.pruned.txt EUR r2 0.8 0```
+
+Output file ```rsids.pruned.txt```:
+
+SNP     ReduSNP_comments
+rs2070901       Pruned 2 other variant(s)
+rs123   Pruned 1 other variant(s)
+
