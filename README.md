@@ -37,10 +37,10 @@ Example
 Input file "rsids.txt":
 
 SNP__
-rs2070901__
-rs2070902__
-rs4233366__
-rs123__
+rs2070901  
+rs2070902  
+rs4233366  
+rs123  
 rs121
 
 
