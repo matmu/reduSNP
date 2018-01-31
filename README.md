@@ -6,6 +6,18 @@ Introduction
 ------------
 reduSNP is a lightweight linkage disequilibrium (LD) pruning tool that is highlighted by its minimum to no pre-processing of input information. It can handle large sets of SNPs with different LD threshold and uses the latest European ancestry Phase 3 release of the 1000 Genomes Project reference population, addressing prior LD-pruning tool 'shortcomings'.
 
+Requirements
+------------
+Perl5 database interface to the MySQL database: ```libdbd-mysql-perl```
+Install via ```sudo apt-get install libdbd-mysql-perl```
+
+Perl libaries: 
+```DBI```
+```Scalar::Util```
+These can be installed using cpanm (```cpanm DBI Scalar::Util```)
+
+
+
 Installation
 -------------
 Required software
