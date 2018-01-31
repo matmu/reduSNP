@@ -32,9 +32,9 @@ Parameters
 
 **\<use\_p\_value>**  If set to "1", the input file is searched for a P-value column. Variants are then pruned in a way, that per LD block the variant with the lowest P-value is kept.
 
-Example command
----------------
-Input file ```rsids.txt```:
+Example
+-------
+Input file "rsids.txt":
 
 SNP
 rs2070901
@@ -44,9 +44,7 @@ rs123
 rs121
 
 
-```./reduSNP rsids.txt rsids.pruned.txt EUR r2 0.8 0```
-
-Output file ```rsids.pruned.txt```:
+After executing ```./reduSNP rsids.txt rsids.pruned.txt EUR r2 0.8 0```, the following output file is created:
 
 SNP     ReduSNP_comments
 rs2070901       Pruned 2 other variant(s)
