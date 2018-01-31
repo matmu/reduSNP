@@ -36,17 +36,17 @@ Example
 -------
 Input file "rsids.txt":
 
-SNP
-rs2070901
-rs2070902
-rs4233366
-rs123
+SNP__
+rs2070901__
+rs2070902__
+rs4233366__
+rs123__
 rs121
 
 
 After executing ```./reduSNP rsids.txt rsids.pruned.txt EUR r2 0.8 0```, the following output file is created:
 
-SNP     ReduSNP_comments
-rs2070901       Pruned 2 other variant(s)
-rs123   Pruned 1 other variant(s)
+SNP     ReduSNP_comments__
+rs2070901       Pruned 2 other variant(s)__
+rs123   Pruned 1 other variant(s)__
 
