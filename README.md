@@ -47,6 +47,6 @@ rs121
 After executing ```./reduSNP rsids.txt rsids.pruned.txt EUR r2 0.8 0```, the following output file is created:
 
 SNP     ReduSNP_comments__
-rs2070901       Pruned 2 other variant(s)__
-rs123   Pruned 1 other variant(s)__
+rs2070901       Pruned 2 other variant(s)  
+rs123   Pruned 1 other variant(s)
 
