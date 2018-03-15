@@ -26,8 +26,7 @@ make it executable
 ```chmod 744 ./reduSNP```
 
 
-and run the tool with
-```./reduSNP```
+and run the tool with ```./reduSNP```.
 
 Parameters
 ---------------
