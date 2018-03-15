@@ -15,7 +15,7 @@ Installation
 -------------
 reduSNP is a Perl script that was converted into a standalone binary with all its dependencies using PAR Packager (https://metacpan.org/pod/pp). 
 
-Therefore simply download it with e.g.  
+Therefore simply download the binary of reduSNP with 
 ```wget https://github.com/matmu/reduSNP/raw/master/reduSNP```  
 
 or clone the repository with  
@@ -24,11 +24,11 @@ or clone the repository with
 ```cd reduSNP```
 
 
-...make it executable  
+make it executable  
 ```chmod 744 ./reduSNP```
 
 
-...and run it with
+and run the tool with
 ```./reduSNP```
 
 Parameters
