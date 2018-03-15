@@ -17,14 +17,18 @@ reduSNP is a Perl script that was converted into a standalone binary with all it
 
 Therefore simply download it with e.g.  
 ```wget https://github.com/matmu/reduSNP/raw/master/reduSNP```  
+
 or clone the repository with  
+
 ```git clone https://github.com/matmu/reduSNP.git```  
 ```cd reduSNP```
+
 
 ...make it executable  
 chmod 744 ./reduSNP
 
-and run it with
+
+...and run it with
 ```./reduSNP```
 
 Parameters
