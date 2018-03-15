@@ -25,7 +25,7 @@ or clone the repository with
 
 
 ...make it executable  
-chmod 744 ./reduSNP
+```chmod 744 ./reduSNP```
 
 
 ...and run it with
